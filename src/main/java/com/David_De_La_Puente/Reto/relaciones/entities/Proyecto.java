@@ -27,7 +27,6 @@ public class Proyecto {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.fechaInicio = fechaInicio;
-        this.fechaFin = fechaFin;
         this.activo = activo;
     }
 
@@ -64,14 +63,6 @@ public class Proyecto {
         this.fechaInicio = fechaInicio;
     }
 
-    public LocalDate getFechaFin() {
-        return fechaFin;
-    }
-
-    public void setFechaFin(LocalDate fechaFin) {
-        this.fechaFin = fechaFin;
-    }
-
     public Boolean getActivo() {
         return activo;
     }
@@ -82,6 +73,6 @@ public class Proyecto {
 
     @Override
     public String toString() {
-        return "Proyecto{" + "id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", fechaInicio=" + fechaInicio + ", fechaFin=" + fechaFin + ", estado=" + activo + '}';
+        return "Proyecto{" + "id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", fechaInicio=" + fechaInicio + ", estado=" + activo + '}';
     }
 }
