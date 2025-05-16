@@ -16,7 +16,6 @@ public class Proyecto {
     private String nombre;
     private String descripcion;
     private LocalDate fechaInicio;
-    private LocalDate fechaFin;
     private Boolean activo;
 
     public Proyecto() {
