@@ -32,8 +32,11 @@ public class Tarea {
         this.proyecto = proyecto;
     }
 
-    public Tarea(String disenyarModeloDeDatos, String crearElModeloRelacinal, boolean b, Proyecto p1) {
-
+    public Tarea(String disenyarModeloDeDatos, String CrearElModeloRelacinal, boolean b, Proyecto p1) {
+        this.titulo = disenyarModeloDeDatos;
+        this.descripcion = CrearElModeloRelacinal;
+        this.completada = b;
+        this.proyecto = p1;
     }
 
     // Getters y Setters

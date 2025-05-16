@@ -22,7 +22,7 @@ public class Proyecto {
     }
 
     // Constructor con todos los atributos
-    public Proyecto(String nombre, String descripcion, LocalDate fechaInicio, LocalDate fechaFin, Boolean activo) {
+    public Proyecto(String nombre, String descripcion, LocalDate fechaInicio, Boolean activo) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.fechaInicio = fechaInicio;
